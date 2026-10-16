@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.atushi1841/japan-stock-mcp",
-  "description": "TSE stock screener, quotes, valuation, financials & trading calendar for AI agents via the official J-Quants API. Free tier, no TOS risk.",
+  "description": "Japan TSE stock screener, quotes, valuation, financials via J-Quants API. Free, no TOS risk.",
   "repository": {
     "url": "https://github.com/atushi1841/japan-stock-mcp",
     "source": "github"
@@ -13,7 +13,7 @@
       "registryType": "mcpb",
       "identifier": "https://github.com/atushi1841/japan-stock-mcp/releases/download/v0.1.0/server.mcpb",
       "version": "0.1.0",
-      "fileSha256": "2621755c2156fb02a0842c0808899967f1f872e9f03b51ad8d2eefff8e00c877",
+      "fileSha256": "dd011f5f61849357b7953603a0138b414ea50d33ecbc7a85ed6926b4a133fff4",
       "transport": {
         "type": "stdio"
       }
