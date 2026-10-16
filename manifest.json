@@ -1,0 +1,52 @@
+{
+  "manifest_version": "0.4",
+  "name": "japan-stock-mcp",
+  "display_name": "Japan Stock Market Data MCP (TSE Screener)",
+  "version": "0.1.0",
+  "description": "TSE stock screener, quotes, valuation, financials & trading calendar for AI agents via the official J-Quants API. Free tier, no TOS risk.",
+  "long_description": "Japan Stock Market Data MCP は、東京証券取引所（TSE）の株式・市場データを AI エージェントに提供する MCP サーバーです。公式 API（J-Quants / JPX）を使用するため TOS リスクなし・無料枠あり。\n\n## 提供ツール\n\n| ツール | 内容 |\n|---|---|\n| `get_quote(code, days)` | 指定銘柄の最新日足 OHLCV（高値・安値・出来高含む） |\n| `screener(market, sector, min_market_cap, ...)` | 市場・業種・時価総額・価格・値幅で株をスクリーニング |\n| `get_valuation(code)` | 時価総額・PER・PBR・配当利回り |\n| `get_financial_summary(code, period)` | 売上高・営業利益・純利益（四半期累計） |\n| `get_calendar(year, month)` | 取引カレンダー（休日リスト） |\n| `sector_list()` | 33業種 / 17業種 分類コードマッピング |\n\n## 動作要件\n\n- Python >= 3.10、fastmcp / mcp\n- 無料枠: J-Quants 無料プラン（12週間データラグ）\n- 認証: `JQUANTS_API_KEY` 環境変数（https://jpx-jquants.com で無料登録）\n- 完全ローカル実行（stdio / HTTP 両対応）\n\n## 関連プロジェクト\n\n- Kensho: https://github.com/atushi1841/kensho\n- 既存 Japan MCP 系列: japan-ec-mcp, japan-price-alert-mcp, japan-intel-mcp, japan-market-mcp 等",
+  "author": {
+    "name": "atushi1841",
+    "url": "https://github.com/atushi1841"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atushi1841/japan-stock-mcp"
+  },
+  "homepage": "https://github.com/atushi1841/japan-stock-mcp",
+  "server": {
+    "type": "python",
+    "entry_point": "src/stdio_main.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${__dirname}",
+        "src/stdio_main.py"
+      ]
+    }
+  },
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "linux",
+      "win32"
+    ],
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  },
+  "keywords": [
+    "japan",
+    "stock",
+    "tse",
+    "screener",
+    "j-quants",
+    "jpx",
+    "equity",
+    "valuation",
+    "mcp"
+  ],
+  "tools": []
+}
