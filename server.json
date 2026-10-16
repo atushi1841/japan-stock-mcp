@@ -13,7 +13,7 @@
       "registryType": "mcpb",
       "identifier": "https://github.com/atushi1841/japan-stock-mcp/releases/download/v0.1.0/server.mcpb",
       "version": "0.1.0",
-      "fileSha256": "PLACEHOLDER",
+      "fileSha256": "2621755c2156fb02a0842c0808899967f1f872e9f03b51ad8d2eefff8e00c877",
       "transport": {
         "type": "stdio"
       }
