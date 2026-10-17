@@ -56,13 +56,12 @@ curl -s -X POST http://localhost:8000/mcp/tools/list \
 |---|---|---|
 | MCP 公式レジストリ | ✅ 登録済み | `io.github.atushi1841/japan-stock-mcp` |
 | Smithery | 📝 未登録 | MCPB バンドル作成済（v0.1.0）— 公開はユーザー手動操作待ち |
-| mcp.so | 📝 未登録 | YAML テンプレは Kensho 側に `mcp_so_configs/` 予定 |
+| mcp.so | 📝 未登録 | YAML テンプレ準備中 |
 
 ## 関連プロジェクト
 
-- Kensho: https://github.com/atushi1841/kensho
 - 既存 Japan MCP 系列: japan-ec-mcp, japan-price-alert-mcp, japan-intel-mcp, japan-market-mcp, japan-jepx-mcp, jartic-japan-traffic-mcp 等
 
 ## License
 
-MIT License. See [Kensho](https://github.com/atushi1841/kensho) project for the full stack.
+MIT License.
