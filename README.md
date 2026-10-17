@@ -62,6 +62,17 @@ curl -s -X POST http://localhost:8000/mcp/tools/list \
 
 - 既存 Japan MCP 系列: japan-ec-mcp, japan-price-alert-mcp, japan-intel-mcp, japan-market-mcp, japan-jepx-mcp, jartic-japan-traffic-mcp 等
 
+## Apify Actor
+
+関連するApifyアクターで同じデータをAPI経由で取得可能:
+
+| Actor名 | 説明 | URL |
+|---|---|---|
+| [japan-market-mcp](https://apify.com/fruitful_quintessence/japan-market-mcp) | 中古品価格比較MCP（カメラ・時計・ブランド品・楽器・車・楽天） | apify.actor |
+| [japan-market-mcp GitHub](https://github.com/atushi1841/japan-market-mcp) | 上記のオープンソース版 | github.com |
+
+J-Quants公式APIを使用する本リポジトリとは別に、スクレイピング型Actorsも提供。
+
 ## License
 
 MIT License.
