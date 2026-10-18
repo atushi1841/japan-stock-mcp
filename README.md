@@ -76,3 +76,9 @@ J-Quants公式APIを使用する本リポジトリとは別に、スクレイピ
 ## License
 
 MIT License.
+
+---
+## Data & Store
+
+- **Apify Store:** https://apify.com/fruitful_quintessence
+- **Gumroad datasets:** https://atushi5.gumroad.com/l/kutuxe
