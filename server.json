@@ -6,7 +6,7 @@
     "url": "https://github.com/atushi1841/japan-stock-mcp",
     "source": "github"
   },
-  "version": "0.1.4",
+  "version": "0.1.5",
   "title": "Japan Stock Market Data MCP (TSE Screener)",
   "packages": [
     {
